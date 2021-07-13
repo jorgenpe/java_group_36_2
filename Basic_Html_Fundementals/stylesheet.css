@@ -1,0 +1,159 @@
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 1024 px;
+    
+
+  }
+
+
+  
+
+  .sidename{
+    position: fixed;
+    background-color: lightcoral;
+    width:25%;
+    padding:23px;
+    border: 2px solid black;
+}
+
+  
+
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+  } 
+
+  th{
+      border: 1px solid black;
+      height: 76px;
+      
+
+  }
+  table.table1{
+    table-layout:auto;
+    position: fixed;
+    top:0% ;
+    right: 34%;
+    width: 41%;
+    border: 2px solid black;
+  }
+  
+  
+
+  
+
+  .header1{
+
+    position: fixed;
+    top:12% ;
+    right: 75%;
+    width: 20%;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid black;
+    
+
+
+  }
+
+  .div2{
+
+    position: fixed;
+    top:0% ;
+    right: 0%;
+    width:34%;
+    background-color: rgb(238, 171, 144);
+    text-align:right;
+    padding: 19px;
+    border: 2px solid black;
+  }
+
+  .section1{
+
+    position: fixed;
+    top: 23% ;
+    right: 35%;
+    width: 60%;
+    background-color: rgb(208, 255, 0);
+    padding: 2%;
+    border: 2px solid black;
+    
+  }
+
+  .sectionA{
+
+    position: fixed;
+    top:8% ;
+    background-color: rgb(208, 255, 0);
+    padding: 5%;
+    border: 1px solid black;
+    
+    width: 80%;
+    height: 85%;
+    display:-moz-inline-stack;
+    
+  }
+
+  .artical1{
+    position: fixed;
+    top:40% ;
+    right: 75%;
+    width: 20%;
+    background-color: white;
+    padding: 5%;
+    border: 2px solid black;
+    
+
+  }
+
+  .artical2{
+    position: fixed;
+    top:40% ;
+    right: 35%;
+    width: 20%;
+    background-color: white;
+    padding: 2%;
+    border: 2px solid black;
+    
+
+  }
+
+  .aside1{
+
+    position: fixed;
+    top:10% ;
+    right: 5%;
+     width: 10%;
+    background-color: grey;
+    padding: 2%;
+    border: 2px solid black;
+     
+  }
+
+  .footer1{
+    position: fixed;
+    top:90%;
+    right: 0%;
+    width: 100%;
+    background-color: grey;
+    padding: 2%;
+
+  }
+
+  
+
+  
+
+body {
+    background-color: lightblue;
+
+    width: 1024px;
+  }
+  
+  
