@@ -3,14 +3,20 @@
     
 
   }
-
+ 
+  body{
+    font-size: 20px;
+  }
 
   .grid-container {
     display: grid;
-    grid-template-areas:
-      'mainmenu nav1 div2';
-    
+    grid-template-columns:
+      15% 15% 15% 15% 40%;
+
+  
+      
     background-color: #2196F3;
+    
     
     
   }
@@ -18,7 +24,7 @@
   .grid-container > div {
     background-color: steelblue;
     text-align: center;
-    
+    max-width: 1024px;
     font-size: 30px;
 
   }
@@ -58,49 +64,33 @@ label{
 }
   .main
   {
-      grid-area: mainmenu;
+      grid-column: 1;
       margin: 0;
       padding: 20px;
       background-color:lavender;
       border: 2px solid black;
   }
-.nav1 {
-    grid-area: nav1;
-    overflow: hidden;
-    background-color: #333;
-    border: 2px solid black;
-  }
-  
-  
-  .nav1 a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 30px;
-    text-decoration: none;
-    border: 2px solid black;
-    height: 70%;
-    width: 25%;
-  }
-  
-  
-  .nav1 a:hover {
-    background-color: #ddd;
-    color: black;
-  }
 
-  .div2{
-    grid-area: div2;
-    background-color: steelblue;
+  
+.link{
+
+  background-color:lavender;
+    padding: 15px;
     border: 2px solid black;
+}
+
+
+
+  .link1{
+    grid-column: 2;
+    
+    
     
   }
 
-
-  .div2 a {
+  .link a {
     
-    display: block;
+    display:block;
     margin-left: auto;
     margin-right: auto;
     color:black;
@@ -108,14 +98,32 @@ label{
     padding: 15px 30px;
     text-decoration: none;
     background-color:steelblue;
-    height: 70%;
-    width: 85%;
+    
   }
   
   
-  .div2 a:hover {
+  .link a:hover {
     background-color:seagreen;
     color: ivory;
+  }
+
+  .link2{
+    grid-column: 3;
+    
+  }
+
+  
+
+  .link3{
+    grid-column: 4;
+    
+  }
+
+  
+
+  .div2{
+    grid-column: 5;
+    
   }
 
   .header1{
@@ -172,7 +180,7 @@ label{
     padding: 20px;
     padding-bottom: 50px;
     border: 2px solid black;
-    
+    border-top: 0;
   }
 
   .inside{
