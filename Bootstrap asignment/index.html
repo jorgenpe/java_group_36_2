@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" >
+    
+    
+    <title>Document</title>
+</head>
+<style>
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+body{background-color: rgb(192, 192, 240);}
+.alfa{ background-color: grey;}
+.beta{background-color: palegoldenrod;}
+.ceta{background-color: skyblue;}
+
+</style>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img  src="tiger.JPG" class="rounded-circle" alt="Tiger" width="55"0 height="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-4 p-3 mb-2 bg-primary text-white"></div>
+              <div class="col-4 p-3 mb-2 bg-dark text-white">
+                <img src="tiger.JPG..." class="d-block w-100 rounded-circle responsive" alt="..."width="250" height="200">
+              </div>
+              <div class="col-4 p-3 mb-2 bg-primary text-white"></div>
+          </div> 
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-4 p-3 mb-2 bg-success text-white"></div>
+              <div class="col-4 p-3 mb-2 bg-dark text-white">
+                <img src="tiger.JPG..." class="d-block w-100 rounded-pill responsive" alt="..."width="250" height="200">
+              </div>
+              <div class="col-4 p-3 mb-2 bg-success text-white"></div>
+          </div> 
+          </div>
+          <div class="carousel-item">
+             <div class="row">
+                <div class="col-4 p-3 mb-2 bg-secondary text-white"></div>
+                <div class="col-4 p-3 mb-2 bg-dark text-white">
+                  <img src="tiger.JPG..." class="d-block w-100 rounded responsive" alt="..."width="250" height="200">
+                </div>
+                <div class="col-4 p-3 mb-2 bg-secondary text-white"></div>
+            </div> 
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    <div class="container-fluid p-3 mb-2 bg-secondary text-white" >
+
+        <iframe src="wordtest.htm" frameborder="0" class="col-12" height="500px"></iframe >
+      
+        <p>Marketing area<br><br><br><br><br><br><br><br></p>
+
+
+    </div>
+
+    <div class="container-fluid alfa border border border-dark ">
+
+        <div class="row">
+
+            <div class="col-1 p-3 mb-2 bg-primary text-white border border border-dark">
+                <nav class="nav flex-column ">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Active</a>
+                    <a class="nav-link text-white" href="#">Link</a>
+                    <a class="nav-link text-white" href="#">Link</a>
+                    
+                  </nav>
+            </div>
+
+               
+            <div class="col-11 p-3 mb-2 ceta text-dark border-top-0 border-end-0 border-bottom-0 border-start border border-5  border border-white ">
+              <div class="row">
+                <div class= col-6>  
+                  Content area 1 
+                </div>
+                  
+                <div class="col-5 ">
+                  Content area 2
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid alfa " >
+
+        <div class="row">
+
+          <form class="col-3 ">
+            <div class=" border border border-dark rounded beta">
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name:</label>
+                    <input type="name" class="form-control border border border-dark" id="exampleFormControlInput1" placeholder="name">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Adress:</label>
+                    <input type="adress" class="form-control border border border-dark" id="exampleFormControlInput1" placeholder="adress">
+                  </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">City:</label>
+                    <input type="city" class="form-control border border border-dark" id="exampleFormControlInput1" placeholder="city">
+                  </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                    <input type="email" class="form-control border border border-dark" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea:</label>
+                    <textarea class="form-control border border border-dark" id="exampleFormControlTextarea1" placeholder="text" rows="6"></textarea>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                      <input class="btn btn-danger float-end "  type="reset" value="Reset" >
+                    </div>                    
+                  </div> 
+
+            </div>
+          </form>
+
+
+            <div class="col-9 ">
+                <img  class="rounded mx-auto d-block img-fluid " src="tiger.JPG" alt="Tiger Responsive image" width="900" height="800">
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright: Jörgen Pettersson
+          <br>
+          <a class="text-dark" href="index.html">Back to Top</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    
+    <script src="../Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" ></script>
+    
+
+    
+    
+
+</body>
+</html>
