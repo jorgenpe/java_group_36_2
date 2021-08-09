@@ -1,12 +1,19 @@
 *{
     font-family: sans-serif;
-    
+    box-sizing: border-box;
 
   }
+
+  
  
   body{
     font-size: 20px;
   }
+
+
+
+
+  
 
   .grid-container {
     display: grid;
